@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Ihogan25
-- 👀 I’m interested in Cyber Security and Penetration Testing
-- 🌱 I’m currently learning Python
+- 👀 I’m Sofrware Engineering and Computer Science
+- 🌱 I’m currently learning Full Stack Developments in Java
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me isaiah.hogan25@gmail.com & www.linkedin.com/in/isaiah-hogan-3ab5941b8
 
