@@ -18,6 +18,14 @@ btn.addEventListener('click', function(){
         changeImageToOff();
     });
 
+const scrlBtnHome = document.getElementById('homeBtn');
+const scrlBtnHomeFunc = () => {
+    
+}
+
+scrlBtnHome.addEventListener('click', function(){
+    scrlBtnHomeFunc
+})
 
 
 
