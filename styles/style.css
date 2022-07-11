@@ -1,3 +1,85 @@
-body {
-    background-color: red;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
+/* Update */
+
+:root {
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondary: 'Roboto Mono', monospace;
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+
+
+
+
+
+/* General styles */
+
+body {
+    background-color: var(--clr-dark);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+header {
+    padding: 1rem 0rem;
+}
+
+.navigation{
+    font-family: var(--ff-secondary);
+
+}
+
+.color-switch-img {
+    max-width: 42px;
+    min-width: auto;
+    max-height: 60px;
+
+
+}
+
+.social-icons {
+    max-width: 1.8rem;
+}
+
+.switch-button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+h2 {
+    font-family: var(--ff-secondary);
+    color: var(--clr-light);
+}
+
+.introduction {
+    background-image: url(/imgs/pexels-cottonbro-4709289.jpg);
+    background-size: cover;
+    font-family: var(--ff-secondary);
+    padding: 20rem 0rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    font-family: var(--ff-secondary);
+    color: var(--clr-light);
+}
+
