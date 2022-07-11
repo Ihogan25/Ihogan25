@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Ihogan25
+- 👋 Hi, I’m @Isaiah Hogan
 - 👀 I’m studying Sofrware Development and Computer Science
 - 🌱 I’m currently learning Full Stack Developments in Java
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking for 
 - 📫 How to reach me isaiah.hogan25@gmail.com & www.linkedin.com/in/isaiah-hogan-3ab5941b8
 - My Portfolio: https://ihogan25.github.io/
 
