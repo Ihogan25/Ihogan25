@@ -1,7 +1,10 @@
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
+    margin: 0;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+
 }
 /* Update */
 
@@ -21,22 +24,29 @@
     --fs-body: 1rem;
 }
 
-
-
-
-
-
 /* General styles */
-
-body {
-    background-color: var(--clr-dark);
-    color: var(--clr-dark);
-    margin: 0;
-    font-family: var(--ff-primary);
-    font-size: var(--fs-body);
-    line-height: 1.6;
+h2 {
+    font-family: var(--ff-secondary);
 }
 
+h3 {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-h3);
+    padding: 1rem 0rem;
+}
+
+p {
+    font-family: var(--ff-secondary);
+    font-size: 1.2rem;
+}
+
+
+li {
+    font-family: var(--ff-secondary);
+}
+
+
+/*header section */
 header {
     padding: 1rem 0rem;
 }
@@ -64,31 +74,6 @@ header {
     background: none;
 }
 
-h2 {
-    font-family: var(--ff-secondary);
-    color: var(--clr-light);
-}
-
-
-.about {
-    margin: 5rem 0rem;
-    background-color: #16e0bd;
-}
-
-.skills{
-    margin: 5rem 0rem;
-    background-color: var(--clr-dark);
-}
-
-.portfolio {
-    margin: 8rem 0rem;
-    background-color: #16e0bd;
-}
-
-.contact{
-    margin: 5rem 0rem;
-    background-color: #0d37aa;
-}
 .introduction {
     background-image: url(/imgs/pexels-cottonbro-4709289.jpg);
     background-size: cover;
@@ -99,29 +84,65 @@ h2 {
     text-decoration: none;
 }
 
-h3 {
-    font-family: var(--ff-secondary);
-    font-size: var(--fs-h3);
+
+
+
+/*about section */
+.about {
+    margin: 5rem 0rem;
 }
+.slide-imgs {
+    height: 30rem;
+    width: 10rem;
+    box-shadow:5px 5px 5px #999;
 
-p {
-    font-family: var(--ff-secondary);
 }
-
-
-li {
-    font-family: var(--ff-secondary);
+/*skills section */
+.skills{
+    margin: 5rem 0rem;
 }
-
 .skills-img{
     max-width: 3em;
     max-height: 3em;
 
 }
+
+
+/*Portfolio section */
+.portfolio {
+    margin: 5rem 0rem;
+}
+.port-imgs{
+    width: 38rem;
+    max-height: 20rem;
+    box-shadow:5px 5px 5px #999;
+}
+
+.proj-links {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: .5rem;
+    color: var(--clr-dark);
+    border-style: solid;
+    border-width: 1px 1px;
+    margin: 0rem .5rem 1rem .5rem ;
+}
+
+.projects {
+    padding: 2rem 0rem;
+}
+
+
+/*Contact section */
+.contact{
+    margin: 5rem 0rem;
+}
+
+/*Footer section */
 footer {
     font-family: var(--ff-secondary);
-    color: var(--clr-light);
     padding-bottom: .5rem;
+    
     
 }
 
