@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ac3db6ee9c.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-light" id="body">
+<body class="bg-light " id="body">
     <!-- Nav bar and Header -->
     
     <header class="sticky-top bg-light" id="introduction">
@@ -130,14 +130,14 @@
               <div class=" col projects">
                 <img class="port-imgs" src="/imgs/project1.jpg">
                 <h3 id="project-1" class="text-dark">E-commerence website</h3>
-                <p class="text-dark text-bg-info" id="project-1-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita. Quasi nostrum magnam quidem, impedit, distinctio voluptates aspernatur mollitia deserunt voluptatem nisi error odit magni laudantium illum. Aliquid, vel consequuntur.</p>
+                <p class="text-dark " id="project-1-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita. Quasi nostrum magnam quidem, impedit, distinctio voluptates aspernatur mollitia deserunt voluptatem nisi error odit magni laudantium illum. Aliquid, vel consequuntur.</p>
                 <a href="" class="proj-links text-dark" id="code-1">Source Code </a>
                 <a href="" class="proj-links text-dark" id="live-1">See Live</a>
               </div>
               <div class="col projects">
                 <img class="port-imgs" src="/imgs/project2.jpg">
                 <h3 id="project-2" class="text-dark">E-commerence website</h3>
-                <p class="text-dark text-bg-info" id="project-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt fugiat. Culpa, consequuntur tempore? Officia voluptatem praesentium id explicabo officiis modi eaque magnam, debitis inventore corrupti! Laudantium dignissimos officiis architecto.</p>
+                <p class="text-dark " id="project-2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt fugiat. Culpa, consequuntur tempore? Officia voluptatem praesentium id explicabo officiis modi eaque magnam, debitis inventore corrupti! Laudantium dignissimos officiis architecto.</p>
                 <a href="" class="proj-links text-dark" id="code-2">Source Code </a>
                 <a href="" class="proj-links text-dark" id="live-2">See Live</a>
               </div>
@@ -146,14 +146,14 @@
               <div class="col projects">
                 <img class="port-imgs" src="/imgs/project3.jpg">
                 <h3 id="project-3" class="text-dark">E-commerence website</h3>
-                <p class="text-dark text-bg-info" id="project-3-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas consectetur voluptatibus, eligendi, officiis eveniet maiores dolor impedit sint eum perspiciatis facere ducimus aliquam hic. Quod harum porro enim in!</p>
+                <p class="text-dark" id="project-3-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas consectetur voluptatibus, eligendi, officiis eveniet maiores dolor impedit sint eum perspiciatis facere ducimus aliquam hic. Quod harum porro enim in!</p>
                 <a href="" class="proj-links text-dark" id="code-3">Source Code </a>
                 <a href="" class="proj-links text-dark"id="live-3">See Live</a>
               </div>
               <div class="col projects">
                 <img class="port-imgs" src="/imgs/project4.jpg">
                 <h3 id="project-4" class="text-dark">E-commerence website</h3>
-                <p class="text-dark text-bg-info" id="project-4-p">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet. adipisicing elit. Error incidunt, molestias unde velit fugiat debitis laborum ullam rerum, recusandae ratione iusto, ab soluta tenetur quos accusamus eius sint natus illo!</p>
+                <p class="text-dark " id="project-4-p">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet. adipisicing elit. Error incidunt, molestias unde velit fugiat debitis laborum ullam rerum, recusandae ratione iusto, ab soluta tenetur quos accusamus eius sint natus illo!</p>
                 <a href="" class="proj-links text-dark" id="code-4">Source Code </a>
                 <a href="" class="proj-links text-dark" id="live-4">See Live</a>
               </div>
@@ -170,14 +170,26 @@
             <br>
             <br>
             <h2 class="text-center text-dark"  id="contact-title">Contact</h2>
-            <form action="https://formsubmit.co/isaiah.hogan25@gmail.com" method="POST">
+            <div class="row text-center">
+            <form action="https://formsubmit.co/isaiah.hogan25@gmail.com" method="POST" class="col bg- ">
+              <h3 class="">Lets Talk!</h3>
+              <fieldset>
+                <legend>Say hi!</legend>
               <input type="hidden" name="_captcha" value="false">
-              <input type="text" name="name" required>
-              <input type="text" name="message" required>
-              <input type="email" name="enail" required>
               <input type="hidden" name="_next" value="https://ihogan25.github.io/pages/thanks.html">
               <input type="hidden" name="_subject" value="New submission!">
-              <button type="submit">Send</button>
+              <label class="">Name:</label>
+              <input type="text" name="name" placeholder="Your Name"required>
+              <label class="">Email:</label>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <br>
+              <label class="pt-5 -white">Get in Touch!</label>
+              <br>
+              <input type="text" name="message" placeholder="Message!"required>
+              <br>
+              <button class="submit mt-2" type="sub mit">Send</button>
+            </fieldset>
+              </div>
          </form>
           </div>
         </section>

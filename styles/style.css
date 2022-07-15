@@ -22,9 +22,17 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
+
+
 }
 
+/* responsive */
+
+
+
+
 /* General styles */
+
 h2 {
     font-family: var(--ff-secondary);
 }
@@ -115,7 +123,7 @@ header {
 .port-imgs{
     width: 38rem;
     max-height: 20rem;
-    box-shadow:5px 5px 5px #999;
+    box-shadow:5px #999;
 }
 
 .proj-links {
@@ -136,6 +144,11 @@ header {
 /*Contact section */
 .contact{
     margin: 5rem 0rem;
+}
+
+.submit{
+    text-decoration: none;
+
 }
 
 /*Footer section */
