@@ -1,161 +1,122 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: var(--ff-secondary);
-    font-size: var(--fs-body);
-    line-height: 1.6;
-
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--dark);
 }
-/* Update */
 
 :root {
-    --ff-primary: 'Poppins', sans-serif;
-    --ff-secondary: 'Roboto Mono', monospace;
-    --fw-reg: 300;
-    --fw-bold: 900;
-    
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
-    
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+    --light: #ffffff;
+    --dark: #000000;
+}
 
+
+.container-1 div {
+    margin: 2em 0 2em 0;
+}
+
+
+
+
+.container-1 {
+    width: 100%;
+    background-color: var(--light);
+    height: 4em;
+    text-align: center;
+}
+
+.container-1 a {
+    padding: 2em 2em 0 2em;
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.container-1 img {
+    width: 2em;
+    height: 2em;
+    padding: 0;
+}
+
+:hover .container-1 img {
+    cursor: pointer;
+}
+
+.container-1 button {
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+
+.banner {
+    background-image: url(/imgs/pexels-cottonbro-4709289.jpg);
+    background-size: cover ;
+    height: 40em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.banner * {
+    color: var(--light);
+}
+
+
+.banner img {
+    height: 3em;
+    width: 3em;
+}
+
+.banner div {
+    padding-top: 10em;
+    
+}
+
+#resume {
+    display: block;
+}
+
+
+.about {
+    text-align: center;
+    margin: 3em 0;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 50em;
+    height: 50em;
+    margin: 0 auto;
+    gap: em;
+}
+
+.container-2 p {
+    line-height: 2em;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+
+.container-2 img {
+    height: 20em;
+    width: 20em;
+    padding: auto;
+    margin: auto;
 
 }
 
-/* responsive */
-
-
-
-
-/* General styles */
 
 h2 {
-    font-family: var(--ff-secondary);
-}
-
-h3 {
-    font-family: var(--ff-secondary);
-    font-size: var(--fs-h3);
-    padding: 1rem 0rem;
-}
-
-p {
-    font-family: var(--ff-secondary);
-    font-size: 1.2rem;
-}
-
-
-li {
-    font-family: var(--ff-secondary);
-}
-
-
-/*header section */
-header {
-    padding: 1rem 0rem;
-}
-
-.navigation{
-    font-family: var(--ff-secondary);
-
-}
-
-.color-switch-img {
-    max-width: 42px;
-    min-width: auto;
-    max-height: 60px;
-
-
-}
-
-.social-icons {
-    max-width: 1.8rem;
-}
-
-.switch-button {
-    padding: 0;
-    border: none;
-    background: none;
-}
-
-.introduction {
-    background-image: url(/imgs/pexels-cottonbro-4709289.jpg);
-    background-size: cover;
-    font-family: var(--ff-secondary);
-    padding: 25rem 0rem;
-    margin-bottom: 5rem;
     text-align: center;
-    text-decoration: none;
+    font-size: 2em;
+}
+.skills {
 }
 
-
-
-
-/*about section */
-.about {
-    margin: 5rem 0rem;
-}
-.slide-imgs {
-    height: 30rem;
-    width: 10rem;
-    box-shadow:5px 5px 5px #999;
-
-}
-/*skills section */
-.skills{
-    margin: 5rem 0rem;
-}
-.skills-img{
-    max-width: 3em;
-    max-height: 3em;
-
-}
-
-
-/*Portfolio section */
 .portfolio {
-    margin: 5rem 0rem;
-}
-.port-imgs{
-    width: 38rem;
-    max-height: 20rem;
-    box-shadow:5px #999;
 }
 
-.proj-links {
-    border-radius: 5px;
-    text-decoration: none;
-    padding: .5rem;
-    color: var(--clr-dark);
-    border-style: solid;
-    border-width: 1px 1px;
-    margin: 0rem .5rem 1rem .5rem ;
+.contact {
 }
-
-.projects {
-    padding: 2rem 0rem;
-}
-
-
-/*Contact section */
-.contact{
-    margin: 5rem 0rem;
-}
-
-.submit{
-    text-decoration: none;
-
-}
-
-/*Footer section */
-footer {
-    font-family: var(--ff-secondary);
-    padding-bottom: .5rem;
-    
-    
-}
-
