@@ -13,7 +13,7 @@
 
 
 .container-1 div {
-    margin: 2em 0 2em 0;
+    margin: auto;
 }
 
 
@@ -112,11 +112,11 @@ h2 {
     text-align: center;
     font-size: 2em;
 }
-.skills {
+/* .skills {
 }
 
 .portfolio {
 }
 
-.contact {
-}
+.contact { 
+}  */
